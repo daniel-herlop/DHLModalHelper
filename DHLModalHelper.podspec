@@ -6,7 +6,7 @@ s.name = "DHLModalHelper"
 s.summary = "Modales personalizados para swiftUI"
 s.requires_arc = true
 
-s.version = "0.1.2"
+s.version = "1.0.0"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 

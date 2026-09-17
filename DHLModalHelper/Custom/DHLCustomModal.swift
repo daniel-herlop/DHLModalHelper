@@ -52,12 +52,12 @@ struct DHLCustomModal: View {
         VStack(spacing: 12) {
             Text(title)
                 .foregroundStyle(Color(uiColor: .label))
-                .font(.system(.title))
+                .font(DHLModalHelper.shared.titleFont)
                 .multilineTextAlignment(.center)
             
             Text(subtitle)
                 .foregroundStyle(Color(uiColor: .label))
-                .font(.system(.title3))
+                .font(DHLModalHelper.shared.subtitleFont)
                 .multilineTextAlignment(.center)
             
             let layout = buttonsAlignment == .horizontal
@@ -151,8 +151,8 @@ private struct ButtonView: View {
                 .contentShape(Rectangle())
         })
         .foregroundStyle(reverseColor ? Color(uiColor: .label) : .white)
-        .font(.system(size: 14))
-        .background(reverseColor ? .clear : Color.blue)
+        .font(DHLModalHelper.shared.buttonsFont)
+        .background(reverseColor ? .clear : DHLModalHelper.shared.buttonsColor)
         .if(reverseColor, transform: { view in
             view
                 .overlay(RoundedRectangle(cornerRadius: 20)

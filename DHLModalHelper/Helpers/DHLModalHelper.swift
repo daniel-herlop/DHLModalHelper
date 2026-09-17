@@ -8,11 +8,28 @@
 import Foundation
 import SwiftUI
 
-extension View {
+public class DHLModalHelper {
+    public static let shared = DHLModalHelper()
+    
+    var titleFont: Font = .system(size: 16)
+    var subtitleFont: Font = .system(size: 14)
+    var buttonsFont: Font = .system(size: 14)
+    var buttonsColor: Color = .blue
+    
+    public func setUp(titleFont: Font, subtitleFont: Font, buttonsFont: Font, buttonsColor: Color) { // swiftlint:disable:this line_length function_parameter_count
+    
+        self.titleFont = titleFont
+        self.subtitleFont = subtitleFont
+        self.buttonsFont = buttonsFont
+        self.buttonsColor = buttonsColor
+    }
+}
+
+public extension View {
     
     // Se pinta un overlay con la modal que se pasa como parametro
     @ViewBuilder
-    func showCustomModal<Modal: View>(_ condition: Bool, @ViewBuilder modal: () -> Modal) -> some View {
+    public func showCustomModal<Modal: View>(_ condition: Bool, @ViewBuilder modal: () -> Modal) -> some View {
         if condition {
             self.overlay {
                 modal()
@@ -24,7 +41,7 @@ extension View {
     
     // Se pinta un alert custom
     @ViewBuilder
-    func showAlert(_ condition: Bool,
+    public func showAlert(_ condition: Bool,
                    title: String,
                    subtitle: String,
                    firstButtonText: String? = nil, reverseFirstButtonColor: Bool = false, firstButtonAction: (() -> Void)? = nil,
@@ -66,7 +83,7 @@ extension View {
     }
     
     // Se muestra un "cargando".
-    func loading(_ isLoading: Bool) -> some View {
+    public func loading(_ isLoading: Bool) -> some View {
         overlay {
             if isLoading {
                 ZStack {
@@ -97,15 +114,15 @@ public func showFullScreenModal<Content: View>(view: Content) {
 }
 
 // Pueden dar problemas los .alert() de la vista principal, aparecen detras de la modal.
-final class WindowOverlay {
+public final class WindowOverlay {
     
-    static let shared = WindowOverlay()
+    public static let shared = WindowOverlay()
     
     private var window: UIWindow?
     
     private init() {}
     
-    func show<Content: View>(@ViewBuilder content: () -> Content) {
+    public func show<Content: View>(@ViewBuilder content: () -> Content) {
         
         guard let scene = UIApplication.shared.connectedScenes
             .compactMap({ $0 as? UIWindowScene })
@@ -132,7 +149,7 @@ final class WindowOverlay {
         self.window = window
     }
     
-    func hide() {
+    public func hide() {
         window?.isHidden = true
         window = nil
     }
