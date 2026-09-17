@@ -29,7 +29,7 @@ public extension View {
     
     // Se pinta un overlay con la modal que se pasa como parametro
     @ViewBuilder
-    public func showCustomModal<Modal: View>(_ condition: Bool, @ViewBuilder modal: () -> Modal) -> some View {
+    func showCustomModal<Modal: View>(_ condition: Bool, @ViewBuilder modal: () -> Modal) -> some View {
         if condition {
             self.overlay {
                 modal()
@@ -41,7 +41,7 @@ public extension View {
     
     // Se pinta un alert custom
     @ViewBuilder
-    public func showAlert(_ condition: Bool,
+    func showAlert(_ condition: Bool,
                    title: String,
                    subtitle: String,
                    firstButtonText: String? = nil, reverseFirstButtonColor: Bool = false, firstButtonAction: (() -> Void)? = nil,
@@ -83,7 +83,7 @@ public extension View {
     }
     
     // Se muestra un "cargando".
-    public func loading(_ isLoading: Bool) -> some View {
+    func loading(_ isLoading: Bool) -> some View {
         overlay {
             if isLoading {
                 ZStack {
