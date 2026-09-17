@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80566C3BFA3826A680C87D30 /* libPods-DHLModalHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF569A3A760D177B996772D /* libPods-DHLModalHelper.a */; };
+		D7CDD576305BF2BC00F98A11 /* DHLModalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CDD575305BF2BC00F98A11 /* DHLModalHelper.swift */; };
+		D7CDD57A305BF37900F98A11 /* DHLCustomModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CDD579305BF37900F98A11 /* DHLCustomModal.swift */; };
+		D7CDD57D305BF45D00F98A11 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CDD57C305BF45D00F98A11 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F618445D878F1C0F9FA2119 /* Pods-DHLModalHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHLModalHelper.debug.xcconfig"; path = "Target Support Files/Pods-DHLModalHelper/Pods-DHLModalHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		7AF569A3A760D177B996772D /* libPods-DHLModalHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DHLModalHelper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7008073305BF11F00E4B34D /* DHLModalHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DHLModalHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7CDD575305BF2BC00F98A11 /* DHLModalHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHLModalHelper.swift; sourceTree = "<group>"; };
+		D7CDD579305BF37900F98A11 /* DHLCustomModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHLCustomModal.swift; sourceTree = "<group>"; };
+		D7CDD57C305BF45D00F98A11 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E7369769A7403747D0F585EF /* Pods-DHLModalHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHLModalHelper.release.xcconfig"; path = "Target Support Files/Pods-DHLModalHelper/Pods-DHLModalHelper.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7008070305BF11F00E4B34D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80566C3BFA3826A680C87D30 /* libPods-DHLModalHelper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22500915BF4959AC1D78BF06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F618445D878F1C0F9FA2119 /* Pods-DHLModalHelper.debug.xcconfig */,
+				E7369769A7403747D0F585EF /* Pods-DHLModalHelper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		77A5931F8C29BEA9A7A47DDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AF569A3A760D177B996772D /* libPods-DHLModalHelper.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7008069305BF11F00E4B34D = {
+			isa = PBXGroup;
+			children = (
+				D7CDD570305BF28B00F98A11 /* DHLModalHelper */,
+				D7008074305BF11F00E4B34D /* Products */,
+				22500915BF4959AC1D78BF06 /* Pods */,
+				77A5931F8C29BEA9A7A47DDE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7008074305BF11F00E4B34D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7008073305BF11F00E4B34D /* DHLModalHelper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7CDD570305BF28B00F98A11 /* DHLModalHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D7CDD57B305BF43B00F98A11 /* Extensions */,
+				D7CDD572305BF28F00F98A11 /* Helpers */,
+				D7CDD573305BF29500F98A11 /* Custom */,
+				D7CDD574305BF2A600F98A11 /* Resources */,
+			);
+			path = DHLModalHelper;
+			sourceTree = "<group>";
+		};
+		D7CDD572305BF28F00F98A11 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D7CDD575305BF2BC00F98A11 /* DHLModalHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D7CDD573305BF29500F98A11 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				D7CDD579305BF37900F98A11 /* DHLCustomModal.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		D7CDD574305BF2A600F98A11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D7CDD57B305BF43B00F98A11 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D7CDD57C305BF45D00F98A11 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D700806E305BF11F00E4B34D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D7008072305BF11F00E4B34D /* DHLModalHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D700807A305BF11F00E4B34D /* Build configuration list for PBXNativeTarget "DHLModalHelper" */;
+			buildPhases = (
+				B1B2176CAAEC503A4A63CAF0 /* [CP] Check Pods Manifest.lock */,
+				D700806E305BF11F00E4B34D /* Headers */,
+				D700806F305BF11F00E4B34D /* Sources */,
+				D7008070305BF11F00E4B34D /* Frameworks */,
+				D7008071305BF11F00E4B34D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DHLModalHelper;
+			productName = DHLModalHelper;
+			productReference = D7008073305BF11F00E4B34D /* DHLModalHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D700806A305BF11F00E4B34D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					D7008072305BF11F00E4B34D = {
+						CreatedOnToolsVersion = 26.6;
+						LastSwiftMigration = 2660;
+					};
+				};
+			};
+			buildConfigurationList = D700806D305BF11F00E4B34D /* Build configuration list for PBXProject "DHLModalHelper" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7008069305BF11F00E4B34D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D7008074305BF11F00E4B34D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7008072305BF11F00E4B34D /* DHLModalHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7008071305BF11F00E4B34D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B1B2176CAAEC503A4A63CAF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DHLModalHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D700806F305BF11F00E4B34D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7CDD57A305BF37900F98A11 /* DHLCustomModal.swift in Sources */,
+				D7CDD57D305BF45D00F98A11 /* Extensions.swift in Sources */,
+				D7CDD576305BF2BC00F98A11 /* DHLModalHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D7008078305BF11F00E4B34D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7008079305BF11F00E4B34D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D700807B305BF11F00E4B34D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F618445D878F1C0F9FA2119 /* Pods-DHLModalHelper.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "daniel-herlop.DHLModalHelper";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D700807C305BF11F00E4B34D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7369769A7403747D0F585EF /* Pods-DHLModalHelper.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "daniel-herlop.DHLModalHelper";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D700806D305BF11F00E4B34D /* Build configuration list for PBXProject "DHLModalHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7008078305BF11F00E4B34D /* Debug */,
+				D7008079305BF11F00E4B34D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D700807A305BF11F00E4B34D /* Build configuration list for PBXNativeTarget "DHLModalHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D700807B305BF11F00E4B34D /* Debug */,
+				D700807C305BF11F00E4B34D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D700806A305BF11F00E4B34D /* Project object */;
+}
