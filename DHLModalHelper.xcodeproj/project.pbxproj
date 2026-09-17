@@ -76,7 +76,6 @@
 				D7CDD57B305BF43B00F98A11 /* Extensions */,
 				D7CDD572305BF28F00F98A11 /* Helpers */,
 				D7CDD573305BF29500F98A11 /* Custom */,
-				D7CDD574305BF2A600F98A11 /* Resources */,
 			);
 			path = DHLModalHelper;
 			sourceTree = "<group>";
@@ -95,13 +94,6 @@
 				D7CDD579305BF37900F98A11 /* DHLCustomModal.swift */,
 			);
 			path = Custom;
-			sourceTree = "<group>";
-		};
-		D7CDD574305BF2A600F98A11 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		D7CDD57B305BF43B00F98A11 /* Extensions */ = {

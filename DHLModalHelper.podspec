@@ -19,7 +19,7 @@ s.source = { :git => "https://github.com/daniel-herlop/DHLModalHelper.git",
 
 s.source_files = "DHLModalHelper/**/*.{swift}"
 
-s.resources = "DHLModalHelper/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
+#s.resources = "DHLModalHelper/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
 
 s.swift_version = "5.0"
 
