@@ -31,7 +31,7 @@ Show alert:
 @State private var showCustomModal = false
 
 .showAlert(
-    showForgotPasswordModal,
+    showCustomModal,
     title: "title",
     subtitle: "subtitle",
     firstButtonText: "first",
